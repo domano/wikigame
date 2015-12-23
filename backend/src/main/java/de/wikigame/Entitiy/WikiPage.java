@@ -1,6 +1,4 @@
-package de.wikigame.Entities;
-
-import com.sun.istack.internal.NotNull;
+package de.wikigame.Entitiy;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,6 +13,8 @@ public class WikiPage {
     private long id;
 
     private String url;
+
+    protected WikiPage() {}
 
     public WikiPage(final String url) {
         this.url = url;

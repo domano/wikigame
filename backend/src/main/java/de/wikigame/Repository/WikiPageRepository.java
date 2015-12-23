@@ -1,6 +1,6 @@
-package de.wikigame.Repositories;
+package de.wikigame.Repository;
 
-import de.wikigame.Entities.WikiPage;
+import de.wikigame.Entitiy.WikiPage;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
